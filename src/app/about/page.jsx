@@ -32,7 +32,7 @@ const AboutPage = () => {
             {/* BIOGRAPHY IMAGE */}
             <Image
               src="/avatar.png"
-              alt=""
+              alt="Shahzad Akram - Web Developer Profile"
               width={112}
               height={112}
               className="w-28 h-28 rounded-full object-cover"
@@ -41,17 +41,14 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+            I'm Shahzad Akram, a professional web developer specializing in Next.js, React, and blockchain technologies. My portfolio showcases my expertise in creating scalable web applications.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Let's connect and build something extraordinary together!
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
-            <div className="self-end">
+            {/* <div className="self-end">
               <svg
                 width="185"
                 height="77"
@@ -65,7 +62,7 @@ const AboutPage = () => {
                   strokeWidth="2"
                 />
               </svg>
-            </div>
+            </div> */}
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}

@@ -16,6 +16,34 @@ const links = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
+  const topVariants = {
+    closed: {
+      rotate: 0,
+    },
+    opened: {
+      rotate: 45,
+      backgroundColor: "rgb(255,255,255)",
+    },
+  };
+  const centerVariants = {
+    closed: {
+      opacity: 1,
+    },
+    opened: {
+      opacity: 0,
+    },
+  };
+
+  const bottomVariants = {
+    closed: {
+      rotate: 0,
+    },
+    opened: {
+      rotate: -45,
+      backgroundColor: "rgb(255,255,255)",
+    },
+  };
+
   const listVariants = {
     closed: { x: "100vw" },
     opened: {
@@ -72,19 +100,23 @@ const Navbar = () => {
 
       <div className="md:hidden">
         <button
-          className="w-10 h-8 flex flex-col justify-between relative z-50"
+          className="w-10 h-8 flex flex-col justify-between relative z-50 "
+        
           onClick={() => setOpen(!open)}
         >
           <motion.div
             className="w-10 h-1 bg-black rounded origin-left"
+            variants={topVariants}
             animate={open ? "opened" : "closed"}
           ></motion.div>
           <motion.div
             className="w-10 h-1 bg-black rounded"
+            variants={centerVariants}
             animate={open ? "opened" : "closed"}
           ></motion.div>
           <motion.div
             className="w-10 h-1 bg-black rounded origin-left"
+            variants={bottomVariants}
             animate={open ? "opened" : "closed"}
           ></motion.div>
         </button>
