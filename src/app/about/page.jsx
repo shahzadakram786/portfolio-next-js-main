@@ -41,11 +41,11 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            I'm Shahzad Akram, a professional web developer specializing in Next.js, React, and blockchain technologies. My portfolio showcases my expertise in creating scalable web applications.
+            I&apos;m Shahzad Akram, a professional web developer specializing in Next.js, React, and blockchain technologies. My portfolio showcases my expertise in creating scalable web applications.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-            Let's connect and build something extraordinary together!
+            Let&apos;s connect and build something extraordinary together!
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             {/* <div className="self-end">
