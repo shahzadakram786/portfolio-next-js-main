@@ -53,21 +53,21 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:flex gap-4 justify-end items-center w-1/3">
-        <Link href="#">
+        <Link href="https://github.com/shahzadakram786">
           <Image src="/github.png" alt="GitHub" width={24} height={24} />
         </Link>
-        <Link href="#">
+        <Link href="https://www.linkedin.com/in/shahzad-akram-250a2b25b/">
           <Image src="/linkedin.png" alt="LinkedIn" width={24} height={24} />
         </Link>
-        <Link href="#">
+        <Link href="https://www.instagram.com/shahzadakram1100/">
           <Image src="/instagram.png" alt="Instagram" width={24} height={24} />
         </Link>
-        <Link href="#">
+        {/* <Link href="#">
           <Image src="/facebook.png" alt="Facebook" width={24} height={24} />
-        </Link>
-        <Link href="#">
+        </Link> */}
+        {/* <Link href="#">
           <Image src="/pinterest.png" alt="Pinterest" width={24} height={24} />
-        </Link>
+        </Link> */}
       </div>
 
       <div className="md:hidden">
