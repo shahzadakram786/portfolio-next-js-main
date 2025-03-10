@@ -6,9 +6,9 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL('https://12123412.xyz'), // Add this line
+  metadataBase: new URL('https://12123412.xyz'), 
   title: "Shahzad Dev Portfolio | Web Developer | Shahzad Akram",
-  description: "Portfolio of Shahzad Akram | Web Developer specializing in Next.js, React, and blockchain technologies",
+  description: "Portfolio of Shahzad Akram | Web Developer specializing in Next.js, React, and blockchain technologies , Front end developer",
   keywords: ["web developer portfolio", "Next.js developer", "React portfolio", "blockchain developer", "frontend developer"],
   openGraph: {
     title: "Shahzad Akram | Web Developer",
