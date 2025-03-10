@@ -230,11 +230,11 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
+                    Senior Front-End Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I led web development, offering expertise in JavaScript
+                    I led web development, offering expertise in Front-End
                     frameworks.{" "}
                   </div>
                   {/* JOB DATE */}
@@ -243,7 +243,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
+                    Webloop
                   </div>
                 </div>
                 {/* CENTER */}
