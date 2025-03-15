@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import TransitionProvider from "@/components/transitionProvider";
 import { Analytics } from "@vercel/analytics/react";
+import HireMe from "@/components/hireMe";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <TransitionProvider>
           {children}
+          {/* <HireMe/> */}
           <Analytics />
         </TransitionProvider>
       </body>
