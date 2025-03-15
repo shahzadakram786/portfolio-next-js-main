@@ -71,11 +71,11 @@ const Navbar = () => {
       <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
         <Link
           href="/"
-          className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
+          className="text-sm w-10 h-10 gap-1 bg-black rounded-full p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white">Shahzad</span>
-          <span className="bg-white w-12 h-8 rounded text-black flex items-center justify-center">
-            .Akram
+          <span className="text-white">S</span>
+          <span className="rounded-full p-1 h-5 w-5 bg-white text-whited flex items-center justify-center">
+            A
           </span>
         </Link>
       </div>
