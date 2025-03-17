@@ -15,7 +15,7 @@ const Homepage = () => {
 
     <div className="h-full flex justify-center items-center flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 lg:gap-10">
       {/* Image container  */}
-      <div className="h-1/2 lg:h-full lg:w-1/2 relative py-10  overflow-hidden">
+      <div className="h-1/2 w-full lg:h-full lg:w-1/2 relative py-10  overflow-hidden">
       {/* <marquee className="absolute text-white text-9xl font-semibold top-52">Shahzad Akram</marquee> */}
         <Image
           src="/avatar.png"
