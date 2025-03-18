@@ -1,5 +1,6 @@
 "use client";
 import HireMe from "@/components/hireMe";
+import { Button } from "@/components/ui/button";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -76,7 +77,7 @@ const PortfolioPage = () => {
                     {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                    <Button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg font-semibold m-4 rounded">See Demo</Button>
                   </Link>
                 </div>
               </div>
